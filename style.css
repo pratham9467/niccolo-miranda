@@ -1,0 +1,1283 @@
+@font-face {
+    font-family:domaine;
+    src: url(/Domaine.ttf);
+}
+@font-face {
+    font-family:canopee;
+    src: url(/Canopee.ttf);
+}
+@font-face {
+    font-family:EditorialNew;
+    src: url(/EditorialNew.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color:#cdc6be;
+}
+
+.main{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+/*********************************************************************PAGE1*************************************************************/
+
+
+#page1{
+    height: 112vh;
+    width: 100vw;
+    background-color:#cdc6be;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    
+}
+
+/**NAVIGATION-BAR**/
+
+#nav{
+    
+    display: flex;
+    height: 70px;
+    padding-left: 28px;
+    padding-right: 28px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    /* position: fixed; */
+    background-color: #CDC6BE;   
+}
+
+#nav img{
+    height: 1.3rem;
+    width: 30%;
+}
+
+#nav h5{
+    font-size: 1.8vh;
+    font-weight: 100;
+    width: 30%;
+    font-family:EditorialNew,sans-serif;
+}
+
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+
+#one-column{
+    height: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin-top: 6.5%; */
+}
+
+/********************************************************************ELEMENT1***********************************************************/
+
+#element1{
+    width: 33%;
+    height: 100%;
+    padding-right: 20px;
+}
+
+#element1 #image1{
+    width: 100%;
+    height: 54.5%;
+    overflow: hidden;
+}
+
+#image1 img{
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image1 img:hover{
+    scale: 1.1;
+}
+
+#element1 h4{
+    color: #1c1c19;
+    font-size: 20px;
+    margin-bottom: 0.6rem;
+    margin-top:0.6rem;
+    font-family: canopee;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+}
+
+#element1 h4 span{
+    background-color: #b73c12;
+    border-radius: 15%;
+    color: #cdc6be;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 3px;
+    font-family: canopee;
+    font-weight: 100;
+}
+
+#element1 p{
+    color: #1c1c19;
+    font-size: 14px;
+    font-family:EditorialNew,sans-serif;
+    
+}
+
+/********************************************************************ELEMENT2***********************************************************/
+
+
+#element2{
+    width: 30%;
+    height: 100%;
+    border-left: 1.5px solid gray;
+    border-right: 1.5px solid gray;
+    text-align: center;
+    padding: 0px 45px;
+}
+
+#element2 h2{
+    color: #1c1c19;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: canopee;
+    letter-spacing: -2px;
+}
+
+#element2 h2 span{
+    color: #1c1c19;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 9px;
+    font-family: Domaine;
+    letter-spacing: -2px;
+}
+
+#element2 h3{
+    color: #1c1c19;
+    font-size: 31px;
+    font-weight: 550;
+    font-family: Editorial New;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+}
+
+#element2 h5{
+    color: #1c1c19;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: canopee;
+}
+
+#element2 h5 span{
+    font-size: 15px;
+    color: #1c1c19;
+    font-family: Editorial New;
+}
+
+/********************************************************************ELEMENT3***********************************************************/
+
+#element3{
+    width: 33%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+
+#element3 #image2{
+    width: 100%;
+    height: 54.5%;
+    overflow: hidden;
+}
+
+#image2 img{
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image2 img:hover{
+    scale: 1.1;
+}
+
+#element3 h4{
+    color: #1c1c19;
+    font-size: 22px;
+    margin-bottom: 0.6rem;
+    margin-top:0.6rem;
+    font-family: canopee;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+}
+
+#element3 h4 span{
+    background-color: #b73c12;
+    border-radius: 15%;
+    color: #cdc6be;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 3px;
+    font-family: canopee;
+    font-weight: 100;
+}
+
+#element3 p{
+    font-size: 14px;
+    font-family:Editorial New,sans-serif;
+    color: #1c1c19;
+}
+
+#page1 h1{
+    font-size: 460px;
+    font-family: canopee;
+    font-weight: 200;
+    letter-spacing: -25px;
+    background-color:RGB(29, 29, 27);
+    color: #cdc6be;
+    line-height: 400px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+/*********************************************************************PAGE2*************************************************************/
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color:#cdc6be ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 45px; 
+}
+
+#page2-left{
+    height: 100%;
+    width: 40%;
+    margin-left: 20px;
+    border-right:1px solid gray;
+}
+
+#page2-left img{
+    height: 40%;
+    width: 90%;
+    object-fit: contain; 
+}
+
+#page2-left h2{
+    font-family: canopee;
+    color: #232322;
+    font-size: 106px;
+    letter-spacing: -5px;
+    font-weight: 100;
+    line-height: 80px;
+    margin-bottom: 15px;
+}
+
+#page2-left h2 span{
+    font-family: canopee;
+    color: #232322;
+    font-size: 183px;
+    font-weight: 500;
+    line-height: 120px;
+    letter-spacing: -10px;
+}
+
+
+#page2-left h2 #c{
+    font-family: Domaine;
+    color: #232322;
+    font-size: 106px;
+    font-weight: 100;
+    letter-spacing: -0.5px;
+}
+
+#text{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#text #textA{
+    display: flex;
+    width:58px;
+    height: 100px;
+    background-color:#1c1c19;
+    color: #cdc6be;
+    font-size: 90px;
+    font-family:EditorialNew;
+    margin-bottom: 110px;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+#page2-left #text2{
+    font-size: 27px;
+    font-family: EditorialNew;
+    letter-spacing: -0.6px;
+    color: #232322;
+    font-weight: 100;
+}
+
+#page2-left #text2 span{
+    font-size: 27px;
+    font-family: EditorialNew;
+    letter-spacing: 0.1px;
+    color: #232322;
+    margin-left: -68px;
+    font-weight: 100;
+}
+
+#page2-right{
+    height: 142vh;
+    width:78.5%;
+    padding-right: 10px; 
+    padding-left: 35px;
+}
+
+#page2-right img{
+    height: auto;
+    object-fit: cover;
+    width: 100%; 
+}
+
+#page2-right h1{
+    margin-top: 30px;
+    font-size: 105px;
+    font-family: Canopee, sans-serif;
+    line-height: 14vh;
+    font-weight: 400;
+    letter-spacing: -5px;
+}
+
+#page2-right h1 span{
+    font-size: 105px;
+    font-weight: 400;
+    line-height: 14vh;
+    letter-spacing: -4px;
+    font-family: domaine, sans-serif; 
+}
+
+
+/*********************************************************************PAGE3*************************************************************/
+
+
+#page3{
+    padding-bottom: 48px;
+    background-color: #CDC6BE;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#page3 h2{
+    width: fit-content;
+    font-size: 370px;
+    font-family: canopee;
+    font-weight: 400;
+    letter-spacing: -18px;
+    background-color: RGB(29, 29, 27);
+    color: #CDC6BE;
+    padding-left: 10px;
+    padding-right: 30px;
+    line-height: 320px;
+    margin-left: 2%;
+   
+}
+
+#page3 img{
+    height:315px;
+    padding-right: 20px;
+}
+
+/*********************************************************************PAGE4*************************************************************/
+#page4{ 
+    height: 100%;
+    width: 100%;
+    background-color: #CDC6BE;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 45px;
+    }
+
+#page4-ele1{
+    width: 28%;
+    height: 100%;
+    border-right: 1.5px solid gray;
+    text-align: center;
+    padding-right: 5px;
+}
+
+#page4-ele1 h2{
+    color: #1c1c19;
+    font-size: 56px;
+    font-weight: 550;
+    font-family: canopee;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+#page4-ele1 h2 span{
+    color: #232322;
+    font-size: 56px;
+    font-weight: 550;
+    font-family: Domaine;
+    letter-spacing: -2px;
+}
+
+#page4-ele1 h3{
+    color: #232322;
+    font-size: 33px;
+    font-weight: 550;
+    font-family: Editorial New;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    letter-spacing: -1px;
+}
+
+#page4-ele1 p{
+    font-size: 33px;
+    line-height: 37px;
+    vertical-align: baseline;
+    letter-spacing:-1px;
+    font-family: Editorial New;
+    text-align: left;
+    padding-top: 8px;
+}
+
+#page4-ele1 h5{
+    color: #232322;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: canopee;
+    text-align: left;
+    margin-top: 23px;
+    padding-bottom: 10px;
+}
+
+#page4-ele1 h5 span{
+    font-size: 15px;
+    color: #232322;
+    font-family: Editorial New;
+    text-align: left;
+}
+
+#page4-ele2{
+    width: 33%;
+    height: 100%;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+#page4-ele2 #image6{
+    width: 100%;
+    height: 100%;
+   overflow: hidden; 
+}
+
+#image6 img{
+    margin-bottom: -4px;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image6 img:hover{
+    scale: 1.1;
+}
+
+#page4-ele2 h4{
+    color: #232322;
+    font-size: 27px;
+    margin-bottom: 0.4rem;
+    margin-top:0.6rem;
+    font-family: canopee;
+    font-weight: 550;
+    letter-spacing: -0.9px; 
+}
+
+#page4-ele2 h4 span{
+    color: #232322;
+    font-size: 27px;
+    margin-bottom: 0.4rem;
+    margin-top:0.4rem;
+    font-family: domaine;
+    font-weight: 550;
+    letter-spacing: -0.9px;
+}
+
+#page4-ele2 p{
+    font-size: 15px;
+    font-family:EditorialNew;
+    color:#232322;
+    line-height: 18px;
+    font-weight:100;
+}
+
+#page4-right h1{
+    font-size: 89px;
+    letter-spacing:-4.5px;
+    font-family: canopee;
+    border-left: 1.5px solid rgba(128, 128, 128, 0.89);
+    padding-left: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#page4-right h1 span{
+    font-size: 89px;
+    letter-spacing: -4.5px;
+    font-family: domaine;
+    font-weight: 300;
+}
+
+#page4-right h1 #deliver{
+    font-size: 170px;
+    font-weight: 520;
+    letter-spacing: -8px;
+    font-family: canopee;
+    line-height: 118px;   
+}
+
+/*********************************************************************PAGE5*************************************************************/
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: #CDC6BE;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#page5-img{
+    width: 67.9%;
+    height: 100%;
+}
+
+#page5-img img{
+    width: 100%;
+    object-fit: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    margin-top: -50px;
+    border-right: 1.5px solid rgba(128, 128, 128, 0.868);
+}
+
+#page5-right{
+    width: 32%;
+}
+
+#page5-right pre{
+    margin-top: -45px;
+}
+
+#page5-right pre h3{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: EditorialNew;
+    line-height: 33px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+#page5-right pre h3::before{
+    content: "A";
+    font-family: domaine;
+    display: inline-block;
+    font-size: 85px;
+    background-color: #232322;
+    color: #CDC6BE;
+    padding: 20px 5px;
+    position: relative;
+    right: 0%;
+    bottom: -50px;
+}
+
+#page5-right pre h5{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: EditorialNew;
+    line-height: 33px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 42px;
+    margin-top: -30px;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+#page5 #page5-right2 {
+    height: 150px;
+    width: 85%;
+    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-color:#d4cbc0;
+    border: 1px solid rgba(128, 128, 128, 0.826);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#page5-right2 p{
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -4.5px;
+    font-family: canopee;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-33%);
+    transition: all ease 0.6s;
+}
+#page5 #page5-right2 span{
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -4.5px;
+    font-family: domaine;
+}
+
+#page5-right2 img {
+    height: 45px;
+    transform: translateX(-140%);
+    transition: all ease 0.6s;
+}
+
+#page5-right2:hover img{
+    transform: translateX(70%);
+}
+
+#page5-right2:hover p{
+    transform: translateX(200%);
+}
+
+/*********************************************************************PAGE6*************************************************************/
+.page6{
+    height: 200px;
+    width: 100%;
+    background-color: #CDC6BE;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.page6-box{
+    height: 150px;
+    width: 100%;
+    border-top: 1.5px solid rgba(128, 128, 128, 0.911);
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.911);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.element6-1{
+    height: 70%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight:100;
+    text-align: center;
+    font-family: domaine;
+}
+
+.element6-1::after{
+    font-family: 'Times New Roman', Times, serif;
+    content: "9";
+    font-size: 140px;
+}
+
+.element6-1 span{
+    font-size: 59px;
+    letter-spacing: -2.5px;
+    font-weight: 100;
+    font-family: canopee;
+    text-align: center;
+}
+
+.element6-2{
+    height: 70%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight:100;
+    text-align: center;
+    font-family: domaine;
+}
+
+.element6-2::after{
+    font-family: 'Times New Roman', Times, serif;
+    content: "1";
+    font-size: 140px;
+}
+
+.element6-2 span{
+    font-size: 59px;
+    letter-spacing: -2.5px;
+    font-weight: 100;
+    font-family: canopee;
+    text-align: center;
+}
+
+.element6-3{
+    height: 70%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight:100;
+    text-align: center;
+    font-family: domaine;
+}
+
+.element6-3::after{
+    font-family: 'Times New Roman', Times, serif;
+    content: "6";
+    font-size: 140px;
+}
+
+.element6-3 span{
+    font-size: 59px;
+    letter-spacing: -2.5px;
+    font-weight: 100;
+    font-family: canopee;
+    text-align: center;
+}
+
+.element6-4{
+    height: 70%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight:100;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: domaine;
+}
+
+.element6-4::after{
+    font-family: 'Times New Roman', Times, serif;
+    content: "8";
+    font-size: 140px;
+}
+
+.element6-4 span{
+    font-size: 59px;
+    letter-spacing: -2.5px;
+    font-weight: 100;
+    font-family: canopee;
+    text-align: center;
+}
+
+.element6-4 #ele6-4{
+    font-family: domaine;
+    font-size: 59px;
+    letter-spacing: -2.5px;
+}
+/**********************************************************************PAGE7*************************************************************/
+.page7{
+    height: 100%;
+    width: 100%;
+    background-color: #CDC6BE;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-bottom: 10px;
+
+}
+
+.page7 .page7-box{
+        height: 100%;
+        width: 100%;
+        display: flex; 
+        flex-direction: row;  
+}
+
+
+.page7 .page7-box .box-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box-right .ele7-1{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ele7-1 img{
+    height: auto;
+    width: 50%;
+    object-fit: cover;
+}
+
+.box-right .ele7-1 p{
+    font-size: 400px;
+    font-family: canopee;
+    font-weight: 100;
+    align-self: flex-start;
+    letter-spacing: -12px;
+    line-height: 295px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-right .ele7-3{
+    height:50%;
+    width: 100%;
+    
+}
+
+.box-right .ele7-3 p{
+    font-size: 365px;
+    font-family: canopee;
+    font-weight: 100;
+    align-self: center;
+    justify-self: center;
+    letter-spacing: -12px;
+    line-height: 250px;
+    padding-top: 20px;
+}
+
+.page7 .page7-box .box-left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-left .ele7-4{
+        height: 100%;
+        width: 100%;
+    
+}
+.ele7-4 img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*********************************************************************PAGE8*************************************************************/
+.page8{
+    height: 290px;
+    width: 100%;
+    background-color: #CDC6BE;
+    padding-left: 20px;
+    padding-right: 20px; 
+}    
+
+.page8 .page8-box {
+    height:100%;
+    width: 100%;
+    display: flex;
+}
+
+.page8 .page8-box .page8-img{
+    height: 280px;
+    width: auto;
+}
+
+.page8-box .page8-img img{
+    height: 270px;
+    width: auto;
+    object-fit: contain;
+}
+
+.page8 .page8-box .page8-text{
+    height: 295px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page8 .page8-box .page8-text{
+    font-size: 380px;
+    font-family: canopee;
+    font-weight: 100;
+    letter-spacing: -18px;
+    line-height: 380px;
+}
+
+.page8 .page8-box .page8-text span{
+    font-size: 380px;
+    font-family: domaine;
+    font-weight: 100;
+    letter-spacing: -10px;
+    line-height: 380px;
+}
+
+/********************************************************************PAGE8-1************************************************************/
+.page8-1{
+    height: 340px;
+    width: 100%;
+    background-color: #CDC6BE;
+    padding-left: 20px;
+    padding-right: 20px; 
+
+}    
+.page8-1 .page8-1box{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.page8-1 .page8-1box .box-1right{
+    font-size: 325px;
+    line-height: 290px;
+    font-family: canopee;
+    letter-spacing: -17.5px;
+    color: #CDC6BE;
+    background-color: #020202;
+    height: 270px;
+    width: 63%;
+}
+.page8-1 .page8-1box .box-1left {
+    height: 270px;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.page8-1box .box-1left .box-1left1 {
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 100;
+    text-align: left;
+    letter-spacing: -0.4;
+    font-family: Editorial New;
+    height: 45%;
+    width: 100%;
+}
+.page8-1box .box-1left .box-1left1 span{
+    font-size: 21px;
+    line-height: 0.1px;
+    border-bottom: 1px solid gray;
+}
+.page8-1box .box-1left .box-1left2 {
+    font-size: 100px;
+    font-family: canopee;
+    letter-spacing: -5px;
+    line-height: 95%;
+    height: 30%;
+    width: 100%;
+}
+.page8-1box .box-1left .box-1left3 {
+    height: 25%;
+    width: 100%;
+    font-size: 25px;
+    line-height: 120%;
+    font-weight: 100;
+    text-align: left;
+    letter-spacing: -0.4;
+    font-family: Editorial New;
+    padding-top: 10px;
+}
+
+
+/*********************************************************************PAGE9*************************************************************/
+
+.page9 {
+    height: 100%;
+    width: 100%;
+    background-color: #CDC6BE;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+#nine-column{
+    height: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    background-color:#CDC6BE;
+    padding-bottom: 27px;
+    border-top: 1.5px solid rgba(128, 128, 128, 0.872);
+}
+
+#element9-1{
+    width: 33%;
+    height: 100%;
+    padding-right: 20px;
+}
+
+#element9-1 #image9R{
+    width: 100%;
+    height: 54.5%;
+    overflow: hidden;
+}
+
+#image9R img{
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image9R img:hover{
+    scale: 1.1;
+}
+
+#element9-1 h4{
+    color: #1c1c19;
+    font-size: 20px;
+    margin-bottom: 0.6rem;
+    margin-top:0.6rem;
+    font-family: canopee;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+}
+
+#element9-1 h4 #ele9{
+    border-radius: 15%;
+    color: #cdc6be;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 3px;
+    font-family: canopee;
+    font-weight: 100;
+}
+
+#element9-1 h4 span{
+    font-family: domaine;
+    font-size: 21px;
+    font-weight: 550;
+}
+
+#element9-1 p{
+    color: #1c1c19;
+    font-size: 14px;
+    font-family:EditorialNew,sans-serif;
+}
+
+/******************************************************************ELEMENT9-2***********************************************************/
+
+#element9-2{
+    width: 30%;
+    height: 100%;
+    border-left: 1.5px solid gray;
+    border-right: 1.5px solid gray;
+    text-align: center;
+    padding: 0px 45px;
+}
+
+#element9-2 h2{
+    color: #1c1c19;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: canopee;
+    letter-spacing: -2px;
+}
+
+#element9-2 h2 span{
+    color: #1c1c19;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 9px;
+    font-family: Domaine;
+    letter-spacing: -2px;
+}
+
+#element9-2 h3{
+    color: #1c1c19;
+    font-size: 31px;
+    font-weight: 550;
+    font-family: Editorial New;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+}
+
+#element9-2 h5{
+    color: #1c1c19;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: canopee;
+}
+
+#element9-2 h5 span{
+    font-size: 15px;
+    color: #1c1c19;
+    font-family: Editorial New;
+}
+
+/******************************************************************ELEMENT9-3***********************************************************/
+
+#element9-3{
+    width: 33%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+
+#element9-3 #image9L{
+    width: 100%;
+    height: 54.5%;
+    overflow: hidden;
+}
+
+#image9L img{
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image9L img:hover{
+    scale: 1.1;
+}
+
+#element9-3 h4{
+    color: #1c1c19;
+    font-size: 22px;
+    margin-bottom: 0.6rem;
+    margin-top:0.6rem;
+    font-family: canopee;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+}
+
+#element9-3 h4 span{
+    background-color: #b73c12;
+    border-radius: 15%;
+    color: #cdc6be;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 3px;
+    font-family: canopee;
+    font-weight: 100;
+}
+
+#element9-3 p{
+    font-size: 14px;
+    font-family:Editorial New,sans-serif;
+    color: #1c1c19;
+}
+
+#page9 h1{
+    font-size: 460px;
+    font-family: canopee;
+    font-weight: 200;
+    letter-spacing: -25px;
+    background-color:RGB(29, 29, 27);
+    color: #cdc6be;
+    line-height: 400px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/*********************************************************************PAGE10************************************************************/
+.page10{
+    height: 250px;
+    width: 100%;
+    background-color:#CDC6BE;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.scrollbar{
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.scrollbar .scrollbox h5{
+    font-size: 70px;
+    font-family: EditorialNew;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    letter-spacing: -1.2px;
+    display: inline-block;
+    animation-name: scroll;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.scrollbar .scrollbox h5 span{
+    font-size: 80px;
+    font-family: canopee;
+    font-weight: 100;
+    padding:0px 15px ;
+    letter-spacing: -0.9px;
+    background-color:#232322;
+    color: #CDC6BE;
+}
+
+#page10::-webkit-scrollbar{
+    display: none;
+}
+
+#page10:hover h5{
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform:translateX(calc(-100% - 1px));
+    }
+}
+
+/*********************************************************************PAGE11************************************************************/
+
+#page11{
+    height: 100px;
+    width: 100%;
+    background-color:#CDC6BE;
+    white-space: nowrap;
+    
+}

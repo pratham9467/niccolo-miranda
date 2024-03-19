@@ -1,0 +1,7 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "liveServer.settings.port": 5501,
+  "cSpell.words": ["DEVEL", "gsap", "INTERA", "REATIVE"]
+}
